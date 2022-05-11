@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Goodtech uz</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  
+  <!-- Bu iconkalarga CDN orqali ulash hisoblanadi. -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  
+  <!-- Bu iconkalarga link orqali ulangan varianti. -->
+  <link rel="stylesheet" href="./icons/bootstrap-icons-1.7.0/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/cars.js">
+  <link rel="icon" href="/images/goodtech_inverterad-vit.jpg">
+</head>
+<body>
+  <!--Main navigation-->
+  <div class="main_navigation px-0 container-fluid" id="main_navigation">
+    <nav class="fixed-top navbar shadow-lg bg-dark navbar-expand-lg">
+      <div class="container nav_container">
+        <div class=" p translate_icons">
+          <img src="/images/goodtech_inverterad-vit.jpg" alt="bu yerda rasm bor">
+          <div class="translate_icons__a">
+            <span class="langWrap">
+              <a id="lang-uz" class="active" href="#" language="Uz">Uz</a>
+              <a id="lang-ru" href="#" language="Ru">Ru</a>
+            </span>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span><i class="bi bi-list"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav_item nav_item1"><a href="#main_navigation" translate="yes" translationKey="nav_item1">Uyga</a></li>
+            <li class="nav_item nav_item2"><a href="#cars_section1" translate="yes" translationKey="nav_item2">Portfel</a></li>
+            <li class="nav_item nav_item3"><a href="#cars_section2" translate="yes" translationKey="nav_item3">Blog</a></li>
+            <li class="nav_item nav_item4"><a href="#cars_section1" translate="yes" translationKey="nav_item4">Sahifalar</a></li>
+            <li class="nav_item nav_item5"><a href="#contact" translate="yes" translationKey="nav_item5">Bog'lanish</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Brand section-->
+    <div class="container big_contain__start">
+      <div class="row d-flex justify-content-between">
+        <div class="col-md-6 text-center col-sm-12 big_contain"> 
+          <p><span translate="yes" translationKey="animation1_1">Bizdan</span> <span translate="yes" translationKey="animation1_2">doimo</span> <br> <span translate="yes" translationKey="animation1_3">eng</span> <span translate="yes" translationKey="animation1_4"> so'nggi</span> <span translate="yes" translationKey="animation1_5">modellarni</span></p>
+          <span translate="yes" translationKey="big_contain" class="span d-md-none big_contain">qulay narxlar</span>
+        </div>
+        <div class="col_2 col-md-6 text-center col-sm-12 big_contain">
+          <p><span translate="yes" translationKey="animation2_1">qulay</span> <span translate="yes" translationKey="animation2_2">va arzon</span> <span translate="yes" translationKey="animation2_3">narxlarda</span> <br> <span translate="yes" translationKey="animation2_4">topishingiz</span> <span translate="yes" translationKey="animation2_5">mumkin</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Cards section-->
+  <div class="container-fluid" id="cars_section1"> 
+    <div class="row text-center">
+      <div class="col-12 d-flex  center center1 justify-content-center">
+        <p><span translate="yes" translationKey="center1_1">Quyidagilarni</span> <span translate="yes" translationKey="center1_2">bizdan</span> <br> <span translate="yes" translationKey="center1_3">xarid</span> <span translate="yes" translationKey="center1_4">qilishingiz</span> <span translate="yes" translationKey="center1_5">mumkin</span></p>
+      </div>
+    </div>
+    <div class="carousel slide shadow bg-body rounded" id="carouselExampleCaptions" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"  class="bg-dark"  aria-label="Slide2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="bg-dark"  aria-label="Slide3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" class="bg-dark"  aria-label="Slide4"></button>
+      </div>	
+      <div class="carousel-inner" data-interval="false">
+        <div class="carousel-item active" >
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="/images/1.jpg" alt="rasm bor" class="card-img-top">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5  class="card-title fs-4 card-title1" translate="yes" translationKey="card-title1">GOODTECH kompressor</h5>
+                  <div class="centered d-flex">
+                    <p class="card-text fs-5 card-text1" translate="yes" translationKey="card-text1">
+                      Brend: GOODTECH
+                    </p> 
+                    <button translate="yes" translationKey="button1" type="button" class="btn button1 btn-success ms-4" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                      Yaqinroq
+                    </button>
+                  </div>
+                  <div class="modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="card">
+                          <p class="d-flex justify-content-end"><button type="button" class="btn-close bg-info" data-bs-dismiss="modal" aria-label="Close"></button></p>
+                          <img src="/images/1.jpg" alt="Rasm" class="card-img-top">
+                          <div class="card-body">
+                            <h5 translate="yes" translationKey="card-title-modal1" class="card-title fs-4 card-title-modal1">GOODTECH kompressor</h5>
+                            <p translate="yes" translationKey="card-text-modal1" class="cardevenly fs-5 card-text-modal1">
+                              Brend: GOODTECH
+                              <div class="row">
+                                <div class="col-12">
+                                  <span translate="yes" translationKey="modal_nested1">Brend </span> <span translate="yes" translationKey="modal_nested1_1">mamlakati:</span> <span translate="yes" translationKey="modal_nested1_2">Xitoy</span> <br>
+                                  <span translate="yes" translationKey="modal_nested2">Voltaj: </span> <span translate="yes" translationKey="modal_nested2_1">220 V,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested3">Tarmoq </span> <span translate="yes" translationKey="modal_nested3_1">chastotasi: 50Hz</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested4">Oqim: </span> <span translate="yes" translationKey="modal_nested4_1">13.5 A</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested5"> Quvvat: </span> <span translate="yes" translationKey="modal_nested5_1">2.2 kVt</span> <br>
+                                  <span translate="yes" translationKey="modal_nested6">Aylanish </span> <span translate="yes" translationKey="modal_nested6_1">tezligi:</span> <span translate="yes" translationKey="modal_nested6_2">1050r/min,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested7">Ish bosimi: </span> <span translate="yes" translationKey="modal_nested7_1">0.8 MPa,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested8">Hosildorlik: </span> <span translate="yes" translationKey="modal_nested8_1">0.25 m3/min,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested9">Silindr: </span> <span translate="yes" translationKey="modal_nested9_1">65x2,</span> <br>
+                                  <span translate="yes" translationKey="modal_nested10">Tank hajmi: </span> <span translate="yes" translationKey="modal_nested10_1">90 l.</span>
+                                </div>
+                              </div>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-title ">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-sm-12 card-title-body1 col-lg-6 fs-5">
+                        <span translate="yes" translationKey="modal_nested1">Brend </span> <span translate="yes" translationKey="modal_nested1_1">mamlakati:</span> <span translate="yes" translationKey="modal_nested1_2">Xitoy</span> <br>
+                        <span translate="yes" translationKey="modal_nested2">Voltaj: </span> <span translate="yes" translationKey="modal_nested2_1">220 V,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested3">Tarmoq </span> <span translate="yes" translationKey="modal_nested3_1">chastotasi: 50Hz</span> <br> 
+                        <span translate="yes" translationKey="modal_nested4">Oqim: </span> <span translate="yes" translationKey="modal_nested4_1">13.5 A</span> <br> 
+                        <span translate="yes" translationKey="modal_nested5"> Quvvat: </span> <span translate="yes" translationKey="modal_nested5_1">2.2 kVt</span> <br>
+                      </div>
+                      <div class="col-sm-12 card-title-body1 col-lg-6 fs-5 d-none d-lg-block">
+                        <span translate="yes" translationKey="modal_nested6">Aylanish </span> <span translate="yes" translationKey="modal_nested6_1">tezligi:</span> <span translate="yes" translationKey="modal_nested6_2">1050r/min,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested7">Ish bosimi: </span> <span translate="yes" translationKey="modal_nested7_1">0.8 MPa,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested8">Hosildorlik: </span> <span translate="yes" translationKey="modal_nested8_1">0.25 m3/min,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested9">Silindr: </span> <span translate="yes" translationKey="modal_nested9_1">65x2,</span> <br>
+                        <span translate="yes" translationKey="modal_nested10">Tank hajmi: </span> <span translate="yes" translationKey="modal_nested10_1">90 l.</span>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="/images/2.jpg" alt="rasm bor" class="card-img-top">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 card-title2" translate="yes" translationKey="card-title2">GOODTECH kompressor</h5>
+                  <div class="centered d-flex">
+                    <p class="cardevenly fs-5 card-text2" translate="yes" translationKey="card-text2">
+                      Brend: GOODTECH 
+                    </p>
+                    <button translate="yes" translationKey="button2" type="button" class="btn button2 btn-success ms-4" data-bs-toggle="modal" data-bs-target="#exampleModalCenter1">
+                      Yaqinroq
+                    </button>
+                  </div>
+                  <div class="modal fade" id="exampleModalCenter1" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="card">
+                          <p class="d-flex justify-content-end"><button type="button" class="btn-close bg-info" data-bs-dismiss="modal" aria-label="Close"></button></p>
+                          <img src="/images/2.jpg" alt="Rasm" class="card-img-top">
+                          <div class="card-body">
+                            <h5 class="card-title fs-4 card-title-modal2" translate="yes" translationKey="card-title-modal2">
+                              GOODTECH kompressor
+                            </h5>
+                            <p class="cardevenly fs-5 card-text-modal2" translate="yes" translationKey="card-text-modal2">
+                              Brend: GOODTECH
+                              <div class="row">
+                                <div class="col-12">
+                                  <span translate="yes" translationKey="modal_nested1">Brend </span> <span translate="yes" translationKey="modal_nested1_1">mamlakati:</span> <span translate="yes" translationKey="modal_nested1_2">Xitoy</span> <br>
+                                  <span translate="yes" translationKey="modal_nested2">Voltaj: </span> <span translate="yes" translationKey="modal_nested2_1V">380 V,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested3">Tarmoq </span> <span translate="yes" translationKey="modal_nested3_1">chastotasi: 50Hz</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested4">Oqim: </span> <span translate="yes" translationKey="modal_nested4_1A">6.4 A</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested5"> Quvvat: </span> <span translate="yes" translationKey="modal_nested5_1W">3 kVt</span> <br>
+                                  <span translate="yes" translationKey="modal_nested6">Aylanish </span> <span translate="yes" translationKey="modal_nested6_1">tezligi:</span> <span translate="yes" translationKey="modal_nested6_2">1050r/min,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested7">Ish bosimi: </span> <span translate="yes" translationKey="modal_nested7_1">0.8 MPa,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested8">Hosildorlik: </span> <span translate="yes" translationKey="modal_nested8_1H">0.36 m3/min,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested9">Silindr: </span> <span translate="yes" translationKey="modal_nested9_1B">65x3,</span> <br>
+                                  <span translate="yes" translationKey="modal_nested10">Tank hajmi: </span> <span translate="yes" translationKey="modal_nested10_1L">150 l.</span>
+                                </div>
+                              </div>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-title ">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-sm-12 card-title-body2 col-lg-6 fs-5">
+                        <span translate="yes" translationKey="modal_nested1">Brend </span> <span translate="yes" translationKey="modal_nested1_1">mamlakati:</span> <span translate="yes" translationKey="modal_nested1_2">Xitoy</span> <br>
+                        <span translate="yes" translationKey="modal_nested2">Voltaj: </span> <span translate="yes" translationKey="modal_nested2_1V">380 V,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested3">Tarmoq </span> <span translate="yes" translationKey="modal_nested3_1">chastotasi: 50Hz</span> <br> 
+                        <span translate="yes" translationKey="modal_nested4">Oqim: </span> <span translate="yes" translationKey="modal_nested4_1A">6.4 A</span> <br> 
+                        <span translate="yes" translationKey="modal_nested5"> Quvvat: </span> <span translate="yes" translationKey="modal_nested5_1W">3 kVt</span> <br>
+                      </div>
+                      <div class="col-sm-12 card-title-body2 col-lg-6 fs-5 d-none d-lg-block">
+                        <span translate="yes" translationKey="modal_nested6">Aylanish </span> <span translate="yes" translationKey="modal_nested6_1">tezligi:</span> <span translate="yes" translationKey="modal_nested6_2">1050r/min,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested7">Ish bosimi: </span> <span translate="yes" translationKey="modal_nested7_1">0.8 MPa,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested8">Hosildorlik: </span> <span translate="yes" translationKey="modal_nested8_1H">0.36 m3/min,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested9">Silindr: </span> <span translate="yes" translationKey="modal_nested9_1B">65x3,</span> <br>
+                        <span translate="yes" translationKey="modal_nested10">Tank hajmi: </span> <span translate="yes" translationKey="modal_nested10_1L">150 l.</span>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="/images/3.jpg" alt="rasm bor" class="card-img-top">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title card-title3 fs-4" translate="yes" translationKey="card-title3">GOODTECH kompressor</h5>
+                  <div class="centered d-flex">
+                    <p class="cardevenly fs-5 card-text3" translate="yes" translationKey="card-text3">
+                      Brend: GOODTECH
+                    </p>
+                    <button translate="yes" translationKey="button3" type="button" class="btn button3 btn-success ms-4" data-bs-toggle="modal" data-bs-target="#exampleModalCenter2">
+                      Yaqinroq
+                    </button>
+                  </div>
+                  <div class="modal fade" id="exampleModalCenter2" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="card">
+                          <p class="d-flex justify-content-end"><button type="button" class="btn-close bg-info" data-bs-dismiss="modal" aria-label="Close"></button></p>
+                          <img src="/images/3.jpg" alt="Rasm" class="card-img-top">
+                          <div class="card-body">
+                            <h5 class="card-title card-title-modal3 fs-4" translate="yes" translationKey="card-title-modal3">GOODTECH kompressor</h5>
+                            <p class="cardevenly card-text-modal3 fs-5" translate="yes" translationKey="card-text-modal3">
+                              Brend: GOODTECH
+                              <div class="row">
+                                <div class="col-12">
+                                  <span translate="yes" translationKey="modal_nested1">Brend </span> <span translate="yes" translationKey="modal_nested1_1">mamlakati:</span> <span translate="yes" translationKey="modal_nested1_2">Xitoy</span> <br>
+                                  <span translate="yes" translationKey="modal_nested2">Voltaj: </span> <span translate="yes" translationKey="modal_nested2_1V">380 V,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested3">Tarmoq </span> <span translate="yes" translationKey="modal_nested3_1">chastotasi: 50Hz</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested4">Oqim: </span> <span translate="yes" translationKey="modal_nested4_1A_1">8.2 A</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested5"> Quvvat: </span> <span translate="yes" translationKey="modal_nested5_1W_1">4 kVt</span> <br>
+                                  <span translate="yes" translationKey="modal_nested6">Aylanish </span> <span translate="yes" translationKey="modal_nested6_1">tezligi:</span> <span translate="yes" translationKey="modal_nested6_2T">950r/min,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested7">Ish bosimi: </span> <span translate="yes" translationKey="modal_nested7_1">0.8 MPa,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested8">Hosildorlik: </span> <span translate="yes" translationKey="modal_nested8_1H_1">0.6 m3/min,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested9">Silindr: </span> <span translate="yes" translationKey="modal_nested9_1B_1">90x2,</span> <br>
+                                  <span translate="yes" translationKey="modal_nested10">Tank hajmi: </span> <span translate="yes" translationKey="modal_nested10_1L_1">180 l.</span>
+                                </div>
+                              </div>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-title ">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-sm-12 card-title-body3 col-lg-6 fs-5">
+                        <span translate="yes" translationKey="modal_nested1">Brend </span> <span translate="yes" translationKey="modal_nested1_1">mamlakati:</span> <span translate="yes" translationKey="modal_nested1_2">Xitoy</span> <br>
+                        <span translate="yes" translationKey="modal_nested2">Voltaj: </span> <span translate="yes" translationKey="modal_nested2_1V">380 V,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested3">Tarmoq </span> <span translate="yes" translationKey="modal_nested3_1">chastotasi: 50Hz</span> <br> 
+                        <span translate="yes" translationKey="modal_nested4">Oqim: </span> <span translate="yes" translationKey="modal_nested4_1A_1">8.2 A</span> <br> 
+                        <span translate="yes" translationKey="modal_nested5"> Quvvat: </span> <span translate="yes" translationKey="modal_nested5_1W_1">4 kVt</span> <br>
+                      </div>
+                      <div class="col-sm-12 card-title-body3 col-lg-6 fs-5 d-none d-lg-block">
+                        <span translate="yes" translationKey="modal_nested6">Aylanish </span> <span translate="yes" translationKey="modal_nested6_1">tezligi:</span> <span translate="yes" translationKey="modal_nested6_2T">950r/min,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested7">Ish bosimi: </span> <span translate="yes" translationKey="modal_nested7_1">0.8 MPa,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested8">Hosildorlik: </span> <span translate="yes" translationKey="modal_nested8_1H_1">0.6 m3/min,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested9">Silindr: </span> <span translate="yes" translationKey="modal_nested9_1B_1">90x2,</span> <br>
+                        <span translate="yes" translationKey="modal_nested10">Tank hajmi: </span> <span translate="yes" translationKey="modal_nested10_1L_1">180 l.</span>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="/images/4.jpg" alt="rasm bor" class="card-img-top">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title fs-4 card-title6-2" translate="yes" translationKey="card-title6-2">
+                    GOODTECH kompressor
+                  </h5>
+                  <div class="centered d-flex">
+                    <p class="cardevenly fs-5 card-text6-2" translate="yes" translationKey="card-text6-2">
+                      Brend: GOODTECH
+                    </p>
+                    <button translate="yes" translationKey="button6-2" type="button" class="btn button6-2 btn-success ms-4" data-bs-toggle="modal" data-bs-target="#exampleModalCenter3">
+                      Yaqinroq
+                    </button>
+                  </div>
+                  <div class="modal fade" id="exampleModalCenter3" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="card">
+                          <p class="d-flex justify-content-end"><button type="button" class="btn-close bg-info" data-bs-dismiss="modal" aria-label="Close"></button></p>
+                          <img src="/images/4.jpg" alt="Rasm" class="card-img-top">
+                          <div class="card-body">
+                            <h5 class="card-title fs-4 card-title-modal6-2" translate="yes" translationKey="card-title-modal6-2">GOODTECH kompressor</h5>
+                            <p class="cardevenly fs-5 card-text-modal6-2" translate="yes" translationKey="card-text-modal6-2">
+                              Brend: GOODTECH
+                              <div class="row">
+                                <div class="col-12">
+                                  <span translate="yes" translationKey="modal_nested1">Brend </span> <span translate="yes" translationKey="modal_nested1_1">mamlakati:</span> <span translate="yes" translationKey="modal_nested1_2">Xitoy</span> <br>
+                                  <span translate="yes" translationKey="modal_nested2">Voltaj: </span> <span translate="yes" translationKey="modal_nested2_1V">380 V,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested3">Tarmoq </span> <span translate="yes" translationKey="modal_nested3_1">chastotasi: 50Hz</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested4">Oqim: </span> <span translate="yes" translationKey="modal_nested4_1A_2">11 A</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested5"> Quvvat: </span> <span translate="yes" translationKey="modal_nested5_1W_2">5.5 kVt</span> <br>
+                                  <span translate="yes" translationKey="modal_nested6">Aylanish </span> <span translate="yes" translationKey="modal_nested6_1">tezligi:</span> <span translate="yes" translationKey="modal_nested6_2T">950r/min,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested7">Ish bosimi: </span> <span translate="yes" translationKey="modal_nested7_1">0.8 MPa,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested8">Hosildorlik: </span> <span translate="yes" translationKey="modal_nested8_1H_2">0.67 m3/min,</span> <br> 
+                                  <span translate="yes" translationKey="modal_nested9">Silindr: </span> <span translate="yes" translationKey="modal_nested9_1B_2">80x2,</span> <br>
+                                  <span translate="yes" translationKey="modal_nested10">Tank hajmi: </span> <span translate="yes" translationKey="modal_nested10_1L_1">180 l.</span>
+                                </div>
+                              </div>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-title card-title-body6-2">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-sm-12 card-title-body6-2 col-lg-6 fs-5">
+                        <span translate="yes" translationKey="modal_nested1">Brend </span> <span translate="yes" translationKey="modal_nested1_1">mamlakati:</span> <span translate="yes" translationKey="modal_nested1_2">Xitoy</span> <br>
+                        <span translate="yes" translationKey="modal_nested2">Voltaj: </span> <span translate="yes" translationKey="modal_nested2_1V">380 V,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested3">Tarmoq </span> <span translate="yes" translationKey="modal_nested3_1">chastotasi: 50Hz</span> <br> 
+                        <span translate="yes" translationKey="modal_nested4">Oqim: </span> <span translate="yes" translationKey="modal_nested4_1A_2">11 A</span> <br> 
+                        <span translate="yes" translationKey="modal_nested5"> Quvvat: </span> <span translate="yes" translationKey="modal_nested5_1W_2">5.5 kVt</span> <br>
+                      </div>
+                      <div class="col-sm-12 card-title-body6-2 col-lg-6 fs-5 d-none d-lg-block">
+                        <span translate="yes" translationKey="modal_nested6">Aylanish </span> <span translate="yes" translationKey="modal_nested6_1">tezligi:</span> <span translate="yes" translationKey="modal_nested6_2T">950r/min,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested7">Ish bosimi: </span> <span translate="yes" translationKey="modal_nested7_1">0.8 MPa,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested8">Hosildorlik: </span> <span translate="yes" translationKey="modal_nested8_1H_2">0.67 m3/min,</span> <br> 
+                        <span translate="yes" translationKey="modal_nested9">Silindr: </span> <span translate="yes" translationKey="modal_nested9_1B_2">80x2,</span> <br>
+                        <span translate="yes" translationKey="modal_nested10">Tank hajmi: </span> <span translate="yes" translationKey="modal_nested10_1L_1">180 l.</span> 
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+  <div class="container-fluid" id="cars_section2">
+    <div class="row text-center">
+      <div class="col-12 d-flex center center2 justify-content-center">
+        <p><span translate="yes" translationKey="center2_1">Bizda</span> <span translate="yes" translationKey="center2_2">ishlab</span> <br> <span translate="yes" translationKey="center2_3">chiqarilishi</span> <span translate="yes" translationKey="center2_4">kutilayotgan</span> <span translate="yes" translationKey="center2_5">mahsulotlar</span></p>
+      </div>
+    </div>
+    <div class="carousel slide carousel-fade shadow bg-body" id="carouselExampleCaptions2" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1"  class="bg-dark"  aria-label="Slide5"></button>
+        <!-- <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" class="bg-dark"  aria-label="Slide6"></button> -->
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card bg-light">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/images/carousel2.1.jpg" alt="rasm bor" class="card-img-top">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title card-title4 fs-4" translate="yes" translationKey="card-title4">CHAMPION IW-180/8,4A mini</h5>
+                  <p class="cardevenly card-text4 fs-5" translate="yes" translationKey="card-text4">Inverterli payvandlash mashinasi</p>
+                  <p class="card-title">
+                    <div class="row">
+                      <div class="col-lg-7 fs-5">
+                        <span translate="yes" translationKey="card-title-body4_1">Quvvat</span> <span translate="yes" translationKey="card-title-body4_2">manbai</span> <span translate="yes" translationKey="card-title-body4_3">kuchlanishi</span> <span translate="yes" translationKey="card-title-body4_4">220V</span>, <br> 
+                        <span translate="yes" translationKey="card-title-body4_5">Maks</span> <span translate="yes" translationKey="card-title-body4_6">quvvat</span> <span translate="yes" translationKey="card-title-body4_7">sarfi</span> <span translate="yes" translationKey="card-title-body4_8">8.4kV</span> <br> 
+                        <span translate="yes" translationKey="card-title-body4_9">Cos PH:</span> <span translate="yes" translationKey="card-title-body4_10">0.7</span> <br> 
+                        <span translate="yes" translationKey="card-title-body4_5">Maks</span> <span translate="yes" translationKey="card-title-body4_11">elektrod</span> <span translate="yes" translationKey="card-title-body4_12">diametri: 4 mm.</span>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card bg-light">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/images/carousel2.2.jpg" alt="rasm bor" class="card-img-top">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title card-title5 fs-4" translate="yes" translationKey="card-title5">Bestweld Best 180</h5>
+                  <p class="cardevenly card-text5 fs-5" translate="yes" translationKey="card-text5">Inverterli payvandlash mashinasi</p>
+                  <p class="card-title">
+                    <div class="row">
+                      <div class="col-lg-7 fs-5">
+                        <span translate="yes" translationKey="card-title-body4_1">Quvvat</span> <span translate="yes" translationKey="card-title-body4_2">manbai</span> <span translate="yes" translationKey="card-title-body4_3">kuchlanishi</span> <span translate="yes" translationKey="card-title-body4_4">220V</span> <br> 
+                        <span translate="yes" translationKey="card-title-body4_5">Maks</span> <span translate="yes" translationKey="card-title-body4_6">quvvat</span> <span translate="yes" translationKey="card-title-body4_7">sarfi</span> <span translate="yes" translationKey="card-title-body5_1">6.6kV</span> <br> 
+                        <span translate="yes" translationKey="card-title-body4_9">Cos PH:</span> <span translate="yes" translationKey="card-title-body5_2">0.8</span> <br> 
+                        <span translate="yes" translationKey="card-title-body5_3">Payvandlash</span> <span translate="yes" translationKey="card-title-body5_4">To'g'ridan-to'g'ri (DC)</span>
+                      </div>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="/images/9.jpeg" alt="rasm bor" class="card-img-top">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title card-title6" translate="yes" translationKey="card-title6">Kia EV6</h5>
+                  <p class="cardevenly card-text6" translate="yes" translationKey="card-text6">Narxi $42,115 dan</p>
+                  <p class="card-title pb-4 card-title-body6" translate="yes" translationKey="card-title-body6">2017 yilda GT-R yangilangan uslubni, yangi interyerni va asosiy dvigatel uchun 565 ot kuchiga ega bo'lgan zarbani, shuningdek transm ...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>	
+    </div>
+  </div>
+  
+  <!--Contact section-->
+  <div class="container-fluid contact" id="contact">
+    <div class="row contact_row">
+      <div class="col-sm-12 col-md-4 contact_content1 shadow body  text-center">
+        <p class="globe"><a href="https://www.jasictech.uz" target="_blank"><i class="bi bi-globe"></i></a></p>
+        <span class="point"></span>
+        <p translate="yes" translationKey="contact_p__1" class="contact_paragraph contact_p__1">Bizning asosiy saytimizdan ham xabardor bo'ling</p> 
+      </div>
+      <div class="col-sm-12 col-md-4 shadow body  contact_content2 text-center"> 
+        <p translate="yes" translationKey="contact_p__2" class="contact_paragraph contact_p__2">Goodtech => bu kompaniyamizning bir kichik sohasi hisoblanadi.</p>
+      </div>
+    </div>
+    <div class="row contact_row text-center">
+      <div class="col-md-4 shadow body contact_content3 col-sm-12">
+        <div class="row gx-0 d-flex justify-content-center">
+          <div class="col-5 tel">
+            <i class="bi bi-telephone phone"></i>
+            <p class="mt-2">+998975121133</p>
+            <p>+998975855555</p>
+          </div>
+        </div>
+        <button translate="yes" translationKey="call_outline" class="btn call_outline btn-outline-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><i class="bi bi-telephone"></i> Biz bilan bog'lanish</button>
+        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+          <div class="offcanvas-header">
+            <h5 translate="yes" translationKey="offcanvas_header" class="offcanvas_header" id="offcanvasBottomLabel">Biz bilan bog'lanish siz uchun qulay va oson</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="row">
+              <div class="col-6 tel">
+                <p><i class="bi bi-telephone"></i> +998975855555</p>
+                <button class="btn call_offcanvas__button1 btn-outline-success"><a translate="yes" translationKey="call_offcanvas__button1" class="call" href="tel:+998710001303">qo'ng'iroq qiling</a></button>
+              </div>
+              <div class="col-6 tel">
+                <p><i class="bi bi-telephone"></i> +998975121133</p>
+                <button class="btn call_offcanvas__button2 btn-outline-success"><a translate="yes" translationKey="call_offcanvas__button2" class="call" href="tel:+998714571303">qo'ng'iroq qiling</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+      <div class="col-md-4 shadow body contact_content4 col-sm-12">
+        <p translate="yes" translationKey="addres" class="contact_paragraph addres">
+          Manzil: Toshkent sh., Usta-Shirin 116/6, Jomiy bozori
+          Ob'ekt yo'nalishi: "Jomi"
+        </p>
+        <div class="row gx-0 text-center d-flex justify-content-around ">
+          <div class="col-5 border map_rounded shadow-sm">
+            <a class="google" href="https://maps.app.goo.gl/hv8FBrzG6sxYM5ZF8">
+              <img class="map" src="/images/image2vector.svg" alt="bu yerda rasm bor"> <br> <span translate="yes" translationKey="google">Google xarita</span>
+            </a>
+          </div>
+          <div class="col-5 border map_rounded shadow-sm">
+            <a class="yandex" href="https://yandex.com/maps?whatshere%5Bpoint%5D=69.257625%2C41.353271&whatshere%5Bzoom%5D=18.127094&ll=69.257236035235%2C41.353552953631926&z=18.127094">
+              <img class="yandex_img" src="/images/Yandex-browser-beta.svg" alt="bu yerda rasm bor"> <br> <span translate="yes" translationKey="yandex">Yandex xarita</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </div>
+  
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+  </div> 
+  
+  <!--Footer section-->
+  <div class="footer_section container-fluid" id="Footer_section">
+    <div class="row py-4 footer_section__row text-center">
+      <div class=" col-sm-6 col-md-4">
+        <ul class="footer_ul">
+          <li translate="yes" translationKey="name_auto" class="footer_ul__li name_auto">Payvandlash mashinalari</li>
+          <li>ARC200 PFC</li>
+          <li>CUT40 L202</li>
+        </ul>
+      </div>
+      <div class=" col-sm-6 col-md-4">
+        <ul class="footer_ul">
+          <li translate="yes" translationKey="number_auto" class="footer_ul__li number_auto">Aksessuarlar</li>
+          <li>Water Cooler WRD-300A</li>
+          <li>Water Cooler MRD-301A</li>
+        </ul>
+      </div>
+      <div class=" col-sm-12 col-md-4">
+        <ul class="footer_ul">
+          <li translate="yes" translationKey="price_auto" class="footer_ul__li price_auto">ARC materiallari</li>
+          <li>E-CU M6X-25</li>
+          <li>E-CU-AL M6X</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <ul class="d-flex justify-content-center footer_icons">
+          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+          <li><a href="https://t.me/goodtechuz"><i class="bi bi-telegram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <nav class="nav d-flex justify-content-end fixed-bottom mb-3 me-3">
+      <div class="row">
+        <div class="col-12 fixed_icons">
+          <a href="#main_navigation"><i class="bi bi-chevron-double-up"></i></a>
+          <button class="btn fixed_icons__button btn-success"><a class="call" href="tel:+998935121133"><i class="bi bi-telephone fs-6 text-white"></i></a></button>
+          <a href="#Footer_section"><i class="bi bi-chevron-double-down"></i></a>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <div translate="yes" translationKey="footer_end" class="col-12 footer_end text-white bg-dark text-center">
+        © 2022 Goodtech PHOENIX TEAM tomonidan ishlab chiqilgan
+      </div>
+    </div>
+  </div>
+  
+  <!-- Bootstrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="./goodtech.js"></script>
+</body>
+</html>

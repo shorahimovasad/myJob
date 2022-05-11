@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palun</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <!-- Bu iconkalarga CDN orqali ulash hisoblanadi. -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Bu iconkalarga link orqali ulangan varianti. -->
+    <link rel="stylesheet" href="./icons/bootstrap-icons-1.7.0/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!--Top section-->
+    <p class="mb-0 img_top"><img src="/img/top.png" alt="bu yerda rasm bor"></p>
+    <div class="sticky-top container-fluid top_section d-flex justify-content-between pt-2" id="top">
+        <p class="envato">envato<span class="span_market">market</span></p>
+        <p class=" buy border px-4 py-1">Buy now</p>
+    </div>
+    
+    <!--Main navigation-->
+    <div class="main_navigation container d-flex justify-content-between" id="main_navigation">
+        <img class="img_H" src="/img/logo.png" alt="bu yerda rasm bor">
+        <nav class="main_navigation navbar navbar-light navbar-expand-md mb-5">
+            <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav_item"><a href="#">Home</a></li>
+                        <li class="nav_item"><a href="#">Portfolio</a></li>
+                        <li class="nav_item"><a href="#">Blog</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="btn-link py-0" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                pages<span class="bi bi-arrow-down-short"></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li> <a href="#" class="dropdown-item">About Us</a></li>
+                                <li> <a href="#" class="dropdown-item">Blog List</a></li>
+                                <li> <a href="#" class="dropdown-item">404</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_item"><a href="#">Contact</a></li>
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav_item1"><a href="#"><i class="fab fa-skype"></i></a></li>
+                            <li class="nav_item1"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li class="nav_item1"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <!--Main header-->
+    <div class="container-fluid main_header mb-5" id="main_header">
+        <div class="carousel slide carousel-fade" id="carouselExampleFade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"   aria-label="Slide2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"   aria-label="Slide3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="col-6 m-auto img_person"><img src="/img/person.png" alt="rasm bor"></div>
+                    <div class="carousel-caption d-flex justify-content-evenly align-items-baseline">
+                        <div class="left_header">
+                            <h1 class="carousel-slide">Arafat <br> Jamil<span>.</span></h1>
+                        </div>
+                        <div class="instagram">
+                            <a href="https://www.instagram.com/asad.bek20oo" target="blank"> <i class="fab fa-instagram"></i> Instagram</a>
+                        </div>
+                        <div class="right_header">
+                            <h2 class="carousel-slide">Content creator, <br> Freelance writer, <br> Developer</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="col-6 m-auto img_person"><img src="/img/person.png" alt="rasm bor"></div>
+                    <div class="carousel-caption d-flex justify-content-evenly align-items-baseline">
+                        <div class="left_header">
+                            <h1 class="carousel-slide">Jack <br> Harper<span>.</span></h1>
+                        </div>
+                        <div class="telegram">
+                            <a href="https://t.me/shorahimovasadbek" target="blank"> <i class="fab fa-telegram"></i> Telegram</a>
+                        </div>
+                        <div class="right_header">
+                            <h2 class="carousel-slide">UI/UX Designer, <br> Full Stack Web <br> Developer</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-6 m-auto img_person"><img src="/img/person.png" alt="rasm bor"></div>
+                    <div class="carousel-caption d-flex justify-content-evenly align-items-baseline">
+                        <div class="left_header">
+                            <h1 class="carousel-slide">Elon <br> Musk<span>.</span></h1>
+                        </div>
+                        <div class="youtube">
+                            <a href="https://www.youtube.com/channel/UCv_EVMyTMavPBNUZ33r3imQ/featured" target="blank"> <i class="fab fa-youtube"></i> YouTube</a>
+                        </div>
+                        <div class="right_header">
+                            <h2 class="carousel-slide">CEO Engineer, <br> Entrepreneur, <br> Start Up</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev prev bg-secondary border rounded-3 ms-5" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            
+            <button class="carousel-control-next next bg-secondary border rounded-3 me-5" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>	
+        </div>
+        <div class="header_end d-flex justify-content-between mx-5">
+            <div class="header_end__left">
+                <a href="/contact.html">sign up</a>
+            </div>
+            <div class="header_end__right">
+                <a href="#services">Learn more <span><i class="bi bi-arrow-down-short"></i></span></a>
+            </div>
+        </div>
+    </div>
+    
+    <!--Services section-->
+    <div class="container services mb-5" id="services">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="center">Sevices</p>
+                <h1 class="center_text__h1">What I Am Great At</h1>
+                <p class="center_text col-6 offset-3 pt-2 pb-5">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida non proident, sunt in culpa qui officia
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action d-flex flex-column justify-content-center text-center" aria-current="true">
+                        <div class="services_item">
+                            <p>
+                                <img class="mb-2" src="/img/pen-yellow.png" alt="bu yerda rasm bor">
+                            </p>
+                            <h1 class="fs-3 fw-bold center_text__h1">UI/UX Design</h1>
+                            <p class="fs-5 center_text__h1">129 projects</p>
+                        </div>
+                    </a>
+                    <div class="list-group-end d-flex flex-column text-center mt-5">
+                        <p class="fs-2 numbers">124 +</p>
+                        <p class="fs-5 center_text">Years of Experience</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action d-flex flex-column justify-content-center text-center" aria-current="true">
+                        <div class="services_item">
+                            <p class="development"><img class="mb-2" src="/img/code.png" alt="bu yerda rasm bor"></p>
+                            <h1 class="fs-3 fw-bold center_text__h1">Web Developmend</h1>
+                            <p class="fs-5 center_text__h1">221 projects</p>
+                        </div>
+                    </a>
+                    <div class="list-group-end d-flex flex-column text-center mt-5">
+                        <p class="fs-2 numbers">240 +</p>
+                        <p class="fs-5 center_text">Satisfied Customers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action d-flex flex-column justify-content-center text-center" aria-current="true">
+                        <div class="services_item">
+                            <p><img class="mb-2" src="/img/search-yellow.png" alt="bu yerda rasm bor"></p>
+                            <h1 class="fs-3 fw-bold center_text__h1">Web Research</h1>
+                            <p class="fs-5 center_text__h1">450 projects</p>
+                        </div>
+                    </a>
+                    <div class="list-group-end d-flex flex-column text-center mt-5">
+                        <p class="fs-2 numbers">53 +</p>
+                        <p class="fs-5 center_text">Design Items</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action d-flex flex-column justify-content-center text-center" aria-current="true">
+                        <div class="services_item">
+                            <p><img class="mb-2" src="/img/marketing.png" alt="bu yerda rasm bor"></p>
+                            <h1 class="fs-3 fw-bold center_text__h1">Marketing</h1>
+                            <p class="fs-5 center_text__h1">331 projects</p>
+                        </div>
+                    </a>
+                    <div class="list-group-end d-flex flex-column text-center mt-5">
+                        <p class="fs-2 numbers">190 +</p>
+                        <p class="fs-5 center_text">Clients Served</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Portfolio section-->
+    <div class="container-fluid portfolio">
+        <div class="container mb-5" id="portfolio">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <p class="center">Portfolio</p>
+                    <h1 class="center_text__h1">My Masterpiece Collection</h1>
+                    <p class="center_text col-6 offset-3 pt-2 pb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida non proident, sunt in culpa qui officia
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills d-flex justify-content-center mb-5" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active " id="pills-plihome-tab" data-bs-toggle="tab" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all">All</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-UI_UX-tab" data-bs-toggle="tab" data-bs-target="#pills-UI_UX" type="button" role="tab" aria-controls="pills-UI_UX">UI/UX</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-plihome-tab" data-bs-toggle="tab" data-bs-target="#pills-Web-Development" type="button" role="tab" aria-controls="pills-Web-Development">Web Development</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Web-Research-tab" data-bs-toggle="tab" data-bs-target="#pills-Web-Research" type="button" role="tab" aria-controls="pills-Web-Research">Web Research</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Marketing-tab" data-bs-toggle="tab" data-bs-target="#pills-Marketing" type="button" role="tab" aria-controls="pills-Marketing">Marketing</button>
+                    </li>
+                </ul>
+                <div class="tab-content mb-3 text-center gx-0" id="myTabContent">
+                    <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                        <div class="row gx-0">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="col1 d-flex flex-column">
+                                    <p class="pb-2"><img src="/img/1.png" alt="bu yerda rasm bor"></p>
+                                    <p class="pt-1"><img src="/img/2.png" alt="bu yerda rasm bor"></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-6">
+                                <p class="portfolio_img"><img src="/img/3.png" alt="bu yerda rasm bor"></p>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <p><img src="/img/4.png" alt="bu yerda rasm bor"></p>
+                            </div>
+                        </div>
+                    </div>     
+                    <div class="tab-pane fade" id="pills-UI_UX" role="tabpanel" aria-labelledby="pills-UI_UX-tab"><img src="/img/1.png" alt="bu yeda rasm bor"></div> 
+                    <div class="tab-pane fade show" id="pills-Web-Development" role="tabpanel" aria-labelledby="pills-Web-Development-tab"><img src="/img/2.png" alt=""></div>     
+                    <div class="tab-pane fade" id="pills-Web-Research" role="tabpanel" aria-labelledby="pills-Web-Research-tab"><img src="/img/3.png" alt="bu yerda rasm bor"></div>    
+                    <div class="tab-pane fade" id="pills-Marketing" role="tabpanel" aria-labelledby="pills-Marketing-tab"><img src="/img/4.png" alt="bu yerda rasm bor"></div>     
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Latest News-->
+    <div class="container latest_news mt-5" id="latest">
+        <div class="row text-center">
+            <p class="center">Latest News</p>
+            <h1 class="center_text__h1">My Latest Articles</h1>
+            <p class="center_text col-6 offset-3 pt-2 pb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida non proident, sunt in culpa qui officia</p>
+        </div>
+        <div class="row mb-5">
+            <div class="col-sm-12 col-lg-4 mb-4 ">
+                <div class="card border-0">
+                    <div class="card-img-overlay p-0">
+                        <span class="bg-dark p-2 black fw-bold">08 Apr 2019</span>
+                    </div>
+                    <img src="/img/blog_09.jpg" class="imgasad" alt="rasm bor">
+                    <div class="card-body py-4 px-4">
+                        <h4 class="fw-bold hover">Welcome to Jekyll! Go ahead and edit</h4>
+                        <p class="text-truncate hover text-white">You'll find this post in your _posts directory. <br> Go ahead and edit it and re-build the site to see your changes. You can rebuild the</p>
+                        <button class="btn fw-bold hover">Read More <span><i class="bi bi-arrow-right-short"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 mb-4 ">
+                <div class="card border-0">
+                    <div class="card-img-overlay p-0">
+                        <span class="bg-dark p-2 black fw-bold">10 Mar 2019</span>
+                    </div>
+                    <img src="/img/blog_05.jpg" alt="rasm bor">
+                    <div class="card-body py-4 px-4">
+                        <h4 class="fw-bold">WordPress hostin manage your growth Nullam</h4>
+                        <p class="text-truncate text-white">Must explain to you how all this mistaken idea <br> of denouncing pleasure and praising pain was born and I will give you a complete account</p>
+                        <button class="btn fw-bold">Read More <span><i class="bi bi-arrow-right-short"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 mb-4">
+                <div class="card card1 mb-3 border-0">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card-img-overlay p-0">
+                                <span class="bg-dark fw-bold p-2 black">09 Mar 2019</span>
+                            </div>
+                            <img src="/img/blog_06.jpg" alt="rasm bor" class="middle_img">
+                        </div>
+                        <div class="col-8 px-2">
+                            <div class="card-body little_card py-4">
+                                <h5 class="card-title text-white px-2 text-truncate">html5 Static Site Generator For</h5>
+                                <p class="card-text text-white px-2">html5 Static Site Generator For All amet </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr_card">
+                <div class="card card1 mb-3 mt-3 border-0">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card-img-overlay p-0">
+                                <span class="bg-dark fw-bold p-2 black">09 Feb 2019</span>
+                            </div>
+                            <img src="/img/blog_07.jpg" alt="rasm bor" class="middle_img">
+                        </div>
+                        <div class="col-8 px-2">
+                            <div class="card-body little_card py-4">
+                                <h5 class="card-title text-white px-2 text-truncate">Just Trying And Enjoying magna</h5>
+                                <p class="card-text text-white px-2">augue ullamcorper eros viverra neque, libero </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr_card">
+                <div class="card card1 mt-3 border-0">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card-img-overlay p-0">
+                                <span class="bg-dark fw-bold p-2 black">09 Feb 2019</span>
+                            </div>
+                            <img src="/img/blog_08.jpg" alt="rasm bor" class="middle_img">
+                        </div>
+                        <div class="col-8 px-2">
+                            <div class="card-body little_card pt-4">
+                                <h5 class="card-title text-white px-2 text-truncate">Easily choose from thousan of</h5>
+                                <p class="card-text text-white px-2">Easily choose from thousan of free themes </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Contact Us-->
+    <div class="container contact_us" id="contact">
+        <div class="row text-center mb-5">
+            <p class="center">contact us</p>
+            <h1 class="center_text__h1">Ways To Contact Me</h1>
+            <p class="center_text col-6 offset-3 pt-2 pb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida non proident, sunt in culpa qui officia</p>
+        </div>
+        <div class="row mb-5">
+            <div class="col-sm-12 col-md-6  col-lg-3 offset-1 d-flex justify-content-center align-items-baseline social pt-2">
+                <p class="pe-3 fs-4 social_media__icons"><i class="bi bi-envelope"></i></p>  
+                <p class="fs-5 fw-bold social_media">admin@jkh.com</p>
+            </div>
+            <div class="col-sm-12 col-md-6  col-lg-3 offset-1 d-flex justify-content-center align-items-baseline social pt-2">
+                <p class="pe-3 fs-4 social_media__icons"><i class="bi bi-telephone"></i></p>
+                <p class="fs-5 fw-bold social_media">+1 (818) 2489 XX</p>
+            </div>
+            <div class="col-sm-12 col-md-6  col-lg-3 offset-1 d-flex justify-content-center align-items-baseline social pt-2">
+                <p class="pe-3 fs-4 social_media__icons"><i class="bi bi-skype"></i></p>
+                <p class="fs-5 fw-bold social_media">live:shail_</p>
+            </div>
+        </div>
+        <div class="row row_social">
+            <div class="col-sm-12 col-md-6 col-lg-3 offset-2 d-flex justify-content-center align-items-baseline social pt-2">
+                <p class="pe-3 fs-4 social_media__icons"><i class="bi bi-twitter"></i></p>
+                <p class="fs-5 fw-bold social_media">@tortoiz</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 offset-2 d-flex justify-content-center align-items-baseline social pt-2">
+                <p class="pe-3 fs-4 social_media__icons"><i class="bi bi-dribbble"></i></p>
+                <p class="fs-5 fw-bold social_media">Tortoiz</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-end footer_icon">
+                <button type="button" class="btn border border-warning border-3 px-3 py-2 button_footer" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                    <i class="bi bi-chevron-up pe-2"></i>move
+                </button>
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content text-center">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">Sections</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 class="modal-title mb-4">Section title</h5>
+                                <p><a href="#main_navigation">Navigation</a></p>
+                                <p><a href="#main_header">Header</a></p>
+                                <p><a href="#services">Services</a></p>
+                                <p><a href="#portfolio">Portfolio</a></p>
+                                <p><a href="#latest">Latest</a></p>
+                                <p><a href="#contact">Contact</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    
+    <hr class="hr_end">
+    
+    <!--Footer section-->
+    <div class="row g-0" id="end">
+        <div class="col-12 d-flex justify-content-center foot_section__end">
+            <p class="text-white fw-bold"><i class="fas fa-copyright"></i> Copyright - Tortoiz | All Rights Reserved</p>
+        </div>
+    </div>
+    
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

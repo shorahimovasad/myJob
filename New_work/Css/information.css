@@ -1,0 +1,93 @@
+body{
+  font-family: 'Inter', serif;
+  font-style: normal;
+  margin: 0;
+  color: #4E4E4E;
+}
+.JFK{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+nav{
+  display: flex;
+  margin-bottom: 70px;
+  align-items: baseline;
+  justify-content: space-around;
+  box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12), 0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  align-items: baseline;
+}
+
+ul li{
+  padding: 0 20px;
+}
+
+.container > h3, .container> p{
+  text-align: center;
+}
+
+.container h3{
+  font-size: 25px;
+}
+
+.city_zip__section{
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.nav_item{
+  border: 1px solid #4E4E4E;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.shadov{
+  box-shadow: 0px 2px 4px -2px rgba(24, 39, 75, 0.12), 0px 4px 4px -2px rgba(24, 39, 75, 0.08);
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.plus{
+  margin-bottom: 50px;
+}
+
+p .a_continue{
+  border: 1px solid #4E4E4E;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #4E4E4E;
+} 
+
+.to_move{
+  margin-left: 60px;
+}
+
+.multiple{
+  text-decoration: none;
+  color: #4E4E4E;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 576px) {
+  nav{
+    display: none;
+  }
+
+  h3, p{
+    margin: 20px 30px;
+  }
+
+  .city_zip__section div{
+    margin: 20px 0;
+  }
+}
